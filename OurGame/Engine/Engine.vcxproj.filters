@@ -13,6 +13,14 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{9ca5a7db-926d-45e1-8615-99510c9ed1aa}</UniqueIdentifier>
+      <Extensions>vsh;psh;</Extensions>
+    </Filter>
+    <Filter Include="Base Game Code">
+      <UniqueIdentifier>{0ca6af1a-e53a-4dda-a3f6-b06b5980c5f1}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">

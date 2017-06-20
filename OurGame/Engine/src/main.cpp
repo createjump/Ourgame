@@ -1,14 +1,13 @@
-/*				*\
+/*						*\
 	Ourgame .01
-==================
+========================
 Licensed under GPLv2.
+========================
+ File: main.cpp
 
-\*				*/
+Purpose: Main entry point for engine.
 
-// File: main.cpp
-//
-// Purpose: Main entry point for program.
-//
+\*						*/
 
 #include "pubinc\common.h"
 using namespace std;
