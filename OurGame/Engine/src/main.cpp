@@ -13,6 +13,9 @@ Purpose: Main entry point for engine.
 using namespace std;
 
 int main(int argc, char* argv[]) {
-	cout << "Hello Engine World!\n";
+#ifndef _DEBUG
+	FreeConsole();
+#endif
+	game::init(argc, argv); // init
 	return 0;
 }

@@ -15,3 +15,9 @@ Licensed under GPLv2.
 #include <iostream>
 #include <stdio.h>
 #include <ostream>
+
+#ifdef PLATFORM_WINDOWS
+// Hack to disable console window on release buids
+#include <windows.h>
+#endif
+#include "../base/basegame_main.h"

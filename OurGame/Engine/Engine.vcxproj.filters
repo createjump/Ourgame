@@ -26,10 +26,16 @@
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\base\basegame_main.cpp">
+      <Filter>Base Game Code</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\pubinc\common.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\basegame_main.h">
+      <Filter>Base Game Code</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
